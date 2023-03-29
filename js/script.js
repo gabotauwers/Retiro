@@ -62,6 +62,7 @@ function Calcular()
             totalInvertido = parseFloat(totalInvertido) + parseFloat(monto);
             console.log(totalInvertido);
         }
+	totalInvertido = parseFloat(totalInvertido) + parseFloat(monto);
         saldoTotal = total;
         gananciaTotal = saldoTotal - totalInvertido;
         $("#inverTotal").val('$' + totalInvertido); 
